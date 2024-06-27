@@ -1,0 +1,12 @@
+Bill breakdown: 
+mango :             ........: $20 
+banana :            ........: $30.5 
+tea
+ :             ........: $10 
+sweet
+ :           ........: $5 
+drink
+ :           ........: $20 
+apple :             ........: $10.5 
+......the tip is:$5
+total is .... : $101  

@@ -1,0 +1,9 @@
+Bill breakdown: 
+tea
+ :             ........: $10 
+coffe
+ :           ........: $5 
+juice
+ :           ........: $10 
+......the tip is:$5
+total is .... : $30  

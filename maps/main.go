@@ -10,10 +10,10 @@ func main() {
 // 	languanges["rb"] = "ruby"
 // 	languanges["cpp"] = "C++"
 
-// 	fmt.Println("map is ",languanges);
+  // 	fmt.Println("map is ",languanges);
 // delete(languanges,"rb");
 // for key,val:=range languanges{
-// 	fmt.Printf("key %v and value %v is \n",key,val)
+ // 	fmt.Printf("key %v and value %v is \n",key,val)
 // }
   students :=map[int]string{
   1:"sachin",

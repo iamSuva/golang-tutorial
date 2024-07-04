@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("Hello world with go language")
 	reader := bufio.NewReader(os.Stdin);
 	println("Enter a number to add with 5 : ");
-	input,_:=reader.ReadString('\n');
+	input,_ :=reader.ReadString('\n');
 	println("Your entered number is : ",input);
     // num,err:=strconv.ParseFloat(strings.TrimSpace(input),64)
 	// if err!=nil{

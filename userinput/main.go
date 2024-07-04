@@ -15,6 +15,6 @@ func main() {
 	//comma ok | error ok
 
 	input,_:=reader.ReadString('\n'); //read still \n
-	fmt.Println("age is :",input);
-	fmt.Printf("type of age is %T\n",input)
+	fmt.Println("age is : ",input);
+	fmt.Printf("type of age is %T\n ",input)
 }		

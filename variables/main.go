@@ -36,7 +36,7 @@ func main(){
 	fmt.Printf("varibale is of type %T\n",myname);
 	//no variable styles
 
-	user :=400;      //integer  // short declaration operator is used to declare the varible inside the function
+	user:=400;      // integer  // short declaration operator is used to declare the varible inside the function
 	fmt.Println(user);
 	fmt.Printf("variable is of type %T\n",user);
    

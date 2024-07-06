@@ -8,7 +8,7 @@ import (
 type Person struct {
 	Name   string `json:"name"`
 	Age    int    `json:"age"`
-	Gender string `json:"gender"`
+	Gender string  `json:"gender"`
 }
 
 func main() {
@@ -20,7 +20,8 @@ func main() {
 	if err!=nil{
 		fmt.Println("error marshalling json",err)
 	}
-	fmt.Println("person data is: ",string(jsondata))
+	fmt.Println(jsondata) //byte data 
+	fmt.Println("converted to json person data is: ",string(jsondata)) // converted to json data
     
 	//decoding json data (unmarshalling)
 	//convert json data back to person object

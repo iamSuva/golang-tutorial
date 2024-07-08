@@ -56,7 +56,7 @@ func updateRequest() {
 	}
 	jsonstring := string(jsondata)
 	jsonreader := strings.NewReader(jsonstring)
-
+    
 	myurl := "https://jsonplaceholder.typicode.com/todos/1"
 	req, err := http.NewRequest(http.MethodPut, myurl, jsonreader)
 	if err != nil {

@@ -8,7 +8,7 @@ import (
 const URL="https://jsonplaceholder.typicode.com/posts/1"
 func main() {
 	fmt.Println("this is http request")
-    response,err := http.Get(URL)
+    response,err:= http.Get(URL)
 	if err!=nil{
         fmt.Println(err)
     
